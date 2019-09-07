@@ -1,0 +1,12 @@
+   
+    def plot_wave(t1, x1, t2, x2):
+    # First function
+    t = np.arange(0.0, float(t1), 0.01)
+
+    fig, ax = plt.subplots()
+    ax.plot(t, x)
+    ax.set(xlabel='time (s)', ylabel='Amplitude (A)',
+       title='Assignment 2')
+    ax.grid()
+    
+    fig.savefig("test.png")

@@ -1,0 +1,3 @@
+Notes on functions-------------------------------------------------------------------------------
+	periodi(t, f, A, phi): returns the amplitudes for a given series of timestamps
+	plot_wave(t, x0, t, x): where t is duration of signal, x0 is the timestamps when phi is 0, x is an array with the initial timestamps. 
